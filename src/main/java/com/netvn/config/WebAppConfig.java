@@ -10,7 +10,7 @@ import org.springframework.context.annotation.FilterType;
 
 @Configuration
 //@ComponentScan("com.netvn.*")
-@ComponentScan(basePackages={"com.netvn"},
+@ComponentScan(basePackages={"com.netvn.*"},
 excludeFilters=@ComponentScan.Filter(type=FilterType.REGEX, pattern={"com.netvn.web.*"}))
 //@Import({ SecurityConfig.class, PersistenceConfig.class })
 @PropertySource("classpath:application.properties")

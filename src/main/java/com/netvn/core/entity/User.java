@@ -15,7 +15,7 @@ import com.netvn.core.abstracts.AbstractEntity;
 
 @Entity
 @Table(name="users")
-public class User extends AbstractEntity{
+public class User extends AbstractEntity {
 	private static final long serialVersionUID = 1L;
 	
 	@Column(name="name")
